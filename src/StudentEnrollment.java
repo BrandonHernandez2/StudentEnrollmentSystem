@@ -13,7 +13,8 @@ public class StudentEnrollment {
 
         System.out.println(" ");
 
-        Student newStudent1 = new Student("12345", "John", "Doe", 20, "Data Science");
-        System.out.println("Updated Major for " + newStudent1.toString());
+        student1.setMajor("Data Science");
+
+        System.out.println("Updated Major for " + student1.toString());
     }
 }

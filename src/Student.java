@@ -25,7 +25,7 @@ public class Student{
         return studentId;
     }
 
-    public void setStudentId(){
+    public void setStudentId(String studentId){
         this.studentId = studentId;
     }
 
@@ -33,7 +33,7 @@ public class Student{
         return firstName;
     }
 
-    public void setFirstName(){
+    public void setFirstName(String firstName){
         this.firstName = firstName;
     }
 
@@ -41,7 +41,7 @@ public class Student{
         return lastName;
     }
 
-    public void setLastName(){
+    public void setLastName(String lastName){
         this.lastName = lastName;
     }
 
@@ -49,7 +49,7 @@ public class Student{
         return age;
     }
 
-    public void setAge(){
+    public void setAge(int age){
         this.age = age;
     }
 
@@ -57,7 +57,7 @@ public class Student{
         return major;
     }
 
-    public void setMajor(){
+    public void setMajor(String major){
         this.major = major;
     }
 
